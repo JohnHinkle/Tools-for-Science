@@ -22,7 +22,7 @@ def main():
     # for this program to work, each sequence name must have something in common (ex. "@m64")
     sequence_start = "@m64"
 
-    search_strings = [probe_1, probe_2, sequence_start]  # replace with the strings you want to search for
+    search_strings = [probe_1, probe_2, sequence_start]
 
     # This step sorts the files in numerical order
     filenames = sorted([filename for filename in os.listdir(folder_path) if filename.endswith('.hifi_reads.txt')])
