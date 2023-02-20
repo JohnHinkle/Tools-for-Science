@@ -7,9 +7,9 @@
 def main():
     import os
     import csv
-
+    
+    # This should be the folder with your sequences in .txt files
     folder_path = "folder_path"
-    # replace with the path to your folder
 
     # PROBES
     # This is an ANME-1 probe
@@ -25,7 +25,7 @@ def main():
     search_strings = [probe_1, probe_2, sequence_start]
 
     # This step sorts the files in numerical order
-    filenames = sorted([filename for filename in os.listdir(folder_path) if filename.endswith('.hifi_reads.txt')])
+    filenames = sorted([filename for filename in os.listdir(folder_path) if filename.endswith('.txt')])
 
     with open('sequence_count.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
