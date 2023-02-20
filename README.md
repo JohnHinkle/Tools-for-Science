@@ -1,2 +1,2 @@
 # Tools-for-Science
-Programs to help with research (particularly microbial ecology)
+Programs to help with research (particularly microbial ecology and biogeochemistry)
