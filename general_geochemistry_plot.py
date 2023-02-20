@@ -1,4 +1,4 @@
-# Geochemistry Plot
+# Geochemistry Plot for IODP data
 # Plots geochemical data vs depth (mbsf)
 
 
