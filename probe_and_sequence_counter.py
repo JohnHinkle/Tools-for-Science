@@ -8,7 +8,7 @@ def main():
     import os
     import csv
 
-    folder_path = "/Users/johnhinkle/Desktop/Guaymas Spring 2023/pacbioseqs txt format"
+    folder_path = "folder_path"
     # replace with the path to your folder
 
     # PROBES
@@ -19,7 +19,7 @@ def main():
     probe_2 = "ggctaccactcgggccgc"
 
     # COMMON SEQUENCE IDENTIFIER
-    # for this program to work, each sequence name must have a common element (ex. "@m64")
+    # for this program to work, each sequence name must have something in common (ex. "@m64")
     sequence_start = "@m64"
 
     search_strings = [probe_1, probe_2, sequence_start]  # replace with the strings you want to search for
