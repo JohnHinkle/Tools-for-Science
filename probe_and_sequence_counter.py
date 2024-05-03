@@ -19,7 +19,7 @@ def main():
     probe_2 = "ggctaccactcgggccgc"
 
     # COMMON SEQUENCE IDENTIFIER
-    # for this program to work, each sequence name must have something in common (ex. "@m64")
+    # for this program to work, each sequence name must have something in common (ex. "@m64", or maybe ">" in a FASTA file)
     sequence_start = "@m64"
 
     search_strings = [probe_1, probe_2, sequence_start]
